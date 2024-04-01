@@ -15,13 +15,15 @@ const History = (props: Props) => {
           <h1 className='p-5 text-white text-2xl md:text-4xl font-bold text-center mb-10'>Why Choose Us?</h1>
           <div className='text-white pb-5 p-5'>
             <div className='flex items-center gap-4 text-sm md:text-2xl py-2 '>
-              <FaCheck className='size-' /><p>Low Quality traffic & bots</p>
+              <FaCheck className='size-' /><p>High Quality & Converting traffic</p>
             </div>
             <div className='flex items-center gap-4 text-sm md:text-2xl py-2'>
-              <FaCheck className='size-' /><p>Using stolen content</p>
+              <FaCheck className='size-' /><p>Backed by a Worldwide UGC Team
+</p>
             </div>
             <div className='flex items-center gap-4 text-sm md:text-2xl py-2'>
-              <FaCheck className='size-' /><p>Limited Scalability</p>
+              <FaCheck className='size-' /><p>Unlimited Scalability
+</p>
             </div>
           </div>
         </div>
