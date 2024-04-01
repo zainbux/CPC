@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import React from 'react';
 import { FaMailBulk } from 'react-icons/fa';
@@ -17,10 +18,10 @@ const Footer = (props: Props) => {
         
           <h1 className='md:text-2xl lg:text-4xl font-bold text-white mb-5 md:mb-0'>Interested in working with us? Contact us now</h1>
         </div>
-        
-        <button className='bg-slate-200 text-indigo-700 font-bold py-2 px-5 rounded-full hover:opacity-75 transition hover:cursor-pointer w-40 ' type="button" onClick={() => router.push('mailto:buxincorporated@gmail.com')}>
+
+        <Link className='bg-slate-200 text-indigo-700 font-bold py-2 px-5 rounded-full hover:opacity-75 transition hover:cursor-pointer w-40 ' href='mailto:buxincorporated@gmail.com'>
           CONTACT US
-        </button>
+        </Link>
 
     </div>
   )
